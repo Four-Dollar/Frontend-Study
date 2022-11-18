@@ -5,6 +5,7 @@ module.exports = {
     node: true,
   },
   extends: [
+    "react-app",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
@@ -16,8 +17,8 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint", "prettier"],
   rules: {
-    "prettier/prettier": ["error"],
+    "prettier/prettier": "error",
   },
 };

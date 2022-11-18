@@ -1,0 +1,9 @@
+{
+  "folders": [
+	{
+		"name": "eslint-prettier-storybook-project",
+		"path": "../../.."
+	}
+],
+  "settings": {}
+}
